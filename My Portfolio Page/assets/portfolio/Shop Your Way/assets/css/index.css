@@ -1,0 +1,69 @@
+* {
+    font-family: "Montserrat", sans-serif;
+}
+
+body {
+    background-image: url(./assets/img/Sharp.jpg);
+    background-repeat: no-repeat;
+}
+
+.container {
+    margin-top: 354px;
+    margin-left: 260px;
+}
+
+.container h2 {
+    color: #FFFFFF;
+    width: 920px;
+    height: 81px;
+    font-weight: 700;
+    font-size: 80px;
+    line-height: 81px;
+    letter-spacing: -0.9px;
+    text-align: center;
+    margin: 0px;
+    padding-bottom: 24px;
+}
+
+.container h3 {
+    color: #FFFFFF;
+    width: 720px;
+    height: 74px;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 37px;
+    letter-spacing: -0.35px;
+    text-align: center;
+    margin: 0px;
+    padding-left: 100px;
+    padding-bottom: 40px;
+}
+
+.container button {
+    background-color: #094BAC;
+    border: none;
+    color: white;
+    padding: 16px 40px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 23px;
+    cursor: pointer;
+    border-radius: 32px;
+    transition: background-color 0.3s;
+    line-height: 32px;
+    font-weight: 600;
+    margin-left: 353px;
+    border: 2px solid transparent;
+}
+
+.container button:hover {
+    background-color: white;
+    color: #094BAC;
+    border-color: #094BAC;
+}
+
+.container button:active {
+    color: #052c65;
+    border-color: #052c65;
+}
